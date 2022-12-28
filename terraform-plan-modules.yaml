@@ -9,5 +9,5 @@ steps:
       - 'TF_VAR_env=$_ENV'
       - 'TF_STATE_BUCKET=$_TF_STATE_BUCKET'
       - 'TF_STATE_PREFIX=$_TF_STATE_PREFIX'
-    options:
-      logging: CLOUD_LOGGING_ONLY
+options:
+  logging: CLOUD_LOGGING_ONLY
