@@ -52,7 +52,7 @@ gcloud builds submit \
 ```shell
 gcloud beta builds triggers create manual \
   --region=$LOCATION \
-  --name="terraform-plan-trigger" \
+  --name="terraform-plan" \
   --repo="https://github.com/tosun-si/sa-custom-roles-gcp-terraform" \
   --repo-type="GITHUB" \
   --branch="main" \
@@ -66,7 +66,7 @@ gcloud beta builds triggers create manual \
 ```shell
 gcloud beta builds triggers create manual \
   --region=$LOCATION \
-  --name="terraform-apply-trigger" \
+  --name="terraform-apply" \
   --repo="https://github.com/tosun-si/sa-custom-roles-gcp-terraform" \
   --repo-type="GITHUB" \
   --branch="main" \
@@ -80,7 +80,7 @@ gcloud beta builds triggers create manual \
 ```shell
 gcloud beta builds triggers create manual \
   --region=$LOCATION \
-  --name="terraform-destroy-trigger" \
+  --name="terraform-destroy" \
   --repo="https://github.com/tosun-si/sa-custom-roles-gcp-terraform" \
   --repo-type="GITHUB" \
   --branch="main" \
