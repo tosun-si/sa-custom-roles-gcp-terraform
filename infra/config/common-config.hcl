@@ -18,7 +18,9 @@ terraform {
   required_version = ">= 0.13.2"
 
   required_providers {
-    google   = "${get_env("GOOGLE_PROVIDER_VERSION")}"
+    google   = "= 4.47.0"
+    null     = "= 3.0.0"
+    template = "= 2.2.0"
   }
 }
 EOF
