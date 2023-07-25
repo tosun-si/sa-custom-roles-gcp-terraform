@@ -1,5 +1,21 @@
 # sa-custom-roles-gcp-terraform
 
+This project shows a complete use case with the least privilege principle on Google Cloud using modular Terraform, Terragrunt and Cloud Build
+
+![sa_with_roles_infra_cloud_build.png](images%2Fsa_with_roles_infra_cloud_build.png)
+
+The article on this topic :
+
+https://medium.com/google-cloud/create-service-accounts-with-custom-roles-using-modular-terraform-terragrunt-and-cloud-build-474371b25388
+
+The video in English :
+
+https://youtu.be/2WN5viZlPfc
+
+The video in French :
+
+https://youtu.be/r758g3nXHqI
+
 ## Build from local machine
 
 ### Set env vars in your Shell
